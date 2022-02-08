@@ -1,0 +1,32 @@
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.section1__block {
+    padding: 15%;
+}
+
+.section1__block__orange {
+    background-color: #ffa500;
+    justify-self: end;
+}
+
+.section1__block__pink {
+    background-color: #ffc0cb;
+    justify-self: start;
+}
+
+.section1__block__green {
+    background-color: #adff2f;
+    justify-self: center;
+}
+
+.section1__block__blue {
+    background-color: #0000ff;
+    justify-self: stretch;
+}
